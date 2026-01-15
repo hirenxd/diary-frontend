@@ -11,7 +11,7 @@ This repository contains the static frontend for the Diary application. It is a 
 ├── index.html          # Main entry point
 ├── app.js              # Application logic
 ├── architecture/       # Architecture diagrams
-│   └── rontend-architecture.png
+│   └── frontend-architecture.png
 └── screenshots/        # Application screenshots
     ├── cloudfront-frontend-access.png
     └── dynamicreply.png
@@ -21,7 +21,7 @@ This repository contains the static frontend for the Diary application. It is a 
 
 The frontend is hosted on **AWS S3** and served globally via **Amazon CloudFront** for low latency and secure HTTPS access.
 
-![Frontend Architecture](architecture/rontend-architecture.png)
+![Frontend Architecture](architecture/frontend-architecture.png)
 
 ## Screenshots
 
