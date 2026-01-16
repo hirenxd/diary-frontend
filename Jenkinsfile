@@ -50,6 +50,8 @@ pipeline {
     post {
         success {
             echo "Successfully deployed to ${DEPLOY_DIR}"
+            // This will make the files downloadable from the Jenkins UI
+            archiveArtifacts artifacts: "${DEPLOY_DIR}/**/*", fingerprint: true
         }
     }
 }
